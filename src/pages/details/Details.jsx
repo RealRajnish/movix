@@ -10,7 +10,7 @@ const Details = () => {
   );
   return (
     <div>
-      <DetailBanner video={data?.results?.[0]} crew={credits?.crew} />
+      <DetailsBanner video={data?.results?.[0]} crew={credits?.crew} />
     </div>
   );
 };
